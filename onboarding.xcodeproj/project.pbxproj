@@ -10,9 +10,22 @@
 		021F93172D887CDB00BEB749 /* onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		021F932A2D887CEB00BEB749 /* Exceptions for "onboarding" folder in "onboarding" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 021F93162D887CDB00BEB749 /* onboarding */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		021F93192D887CDB00BEB749 /* onboarding */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				021F932A2D887CEB00BEB749 /* Exceptions for "onboarding" folder in "onboarding" target */,
+			);
 			path = onboarding;
 			sourceTree = "<group>";
 		};
@@ -250,6 +263,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onboarding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onboarding/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,6 +301,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onboarding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onboarding/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

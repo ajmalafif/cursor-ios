@@ -1,0 +1,30 @@
+# Important rules you must follow
+- Only write code if I explicitly ask you to do so.
+- Always add debug logs & comments in the code for easier debugging and readability
+- Every time you choose to apply a rule(s), explicitly state the rule{s} in the output. You can abbreviate the rule description to a single word or phrase.
+
+# Existing project structure
+.
+├── buildServer.json
+├── onboarding
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   ├── AppIcon.appiconset
+│   │   └── Contents.json
+│   ├── ContentView.swift
+│   ├── Info.plist
+│   ├── Preview Content
+│   │   └── Preview Assets.xcassets
+│   ├── onboarding.entitlements
+│   └── onboardingApp.swift
+└── onboarding.xcodeproj
+    ├── project.pbxproj
+    ├── project.xcworkspace
+    │   ├── contents.xcworkspacedata
+    │   ├── xcshareddata
+    │   └── xcuserdata
+    └── xcuserdata
+        └── ajmal.jamal.xcuserdatad
+
+# Tech Stack
+- SwiftUI and Swift 
